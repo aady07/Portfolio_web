@@ -1,13 +1,13 @@
 const INFO = {
 	main: {
-		title: "Aady_PORT",
+		title: "Aady Resume",
 		name: "Adarsh Singh",
-		email: "sadarsh510@gmail.com",
+		email: "sadarsh510@proton.me",
 		logo: "../logo.png",
 	},
 
 	socials: {
-		twitter: "https://twitter.com/anadarshh",
+		twitter: "https://www.linkedin.com/in/adarsh-singh-670783291/",
 		github: "https://github.com/aady07",
 		linkedin: "https://linkedin.com/",
 		instagram: "https://www.instagram.com/adarsh.cosecgh/",

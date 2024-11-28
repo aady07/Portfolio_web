@@ -19,7 +19,7 @@ const Works = () => {
 								alt="Impact-Infotech"
 								className="work-image"
 							/>
-							<div className="work-title">CTFC</div>
+							<div className="work-title">VKai</div>
 							<div className="work-subtitle">
 								Full Stack Developer
 							</div>

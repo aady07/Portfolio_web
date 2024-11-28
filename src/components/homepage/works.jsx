@@ -15,7 +15,7 @@ const Works = () => {
 					<div className="works-body">
 						<div className="work">
 							<img
-								src="./CTFC_Logo (1)-1.png"
+								src="./vkai.jpeg"
 								alt="Impact-Infotech"
 								className="work-image"
 							/>

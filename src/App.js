@@ -9,7 +9,6 @@ import Articles from "./pages/articles";
 import ReadArticle from "./pages/readArticle";
 import Contact from "./pages/contact";
 import Notfound from "./pages/404";
-import Chatbot from "./components/Chatbot";
 
 import { TRACKING_ID } from "./data/tracking";
 import "./app.css";
@@ -22,18 +21,15 @@ function App() {
 	}, []);
 
 	return (
-		<div className="App">
-			<Routes>
-				<Route path="/" element={<Homepage />} />
-				<Route path="/about" element={<About />} />
-				<Route path="/projects" element={<Projects />} />
-				<Route path="/articles" element={<Articles />} />
-				<Route path="/article/:slug" element={<ReadArticle />} />
-				<Route path="/contact" element={<Contact />} />
-				<Route path="*" element={<Notfound />} />
-			</Routes>
-			<Chatbot />
-		</div>
+		<Routes>
+			<Route path="/" element={<Homepage />} />
+			<Route path="/about" element={<About />} />
+			<Route path="/projects" element={<Projects />} />
+			<Route path="/articles" element={<Articles />} />
+			<Route path="/article/:slug" element={<ReadArticle />} />
+			<Route path="/contact" element={<Contact />} />
+			<Route path="*" element={<Notfound />} />
+		</Routes>
 	);
 }
 
